@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b28480d7.css",
+    "main.js": "/static/js/main.43b0dcbd.js",
+    "static/media/python.png": "/static/media/python.11d0f9f3da5ba78d1249.png",
+    "static/media/gis.png": "/static/media/gis.52ef7171f1d26bf89eda.png",
+    "static/media/Gurminder.jpeg": "/static/media/Gurminder.170530de5e7fc75bc036.jpeg",
+    "static/media/IMG-3767-scaled.jpg": "/static/media/IMG-3767-scaled.0ccf64e3f3d13198eea7.jpg",
+    "static/media/vr 1.png": "/static/media/vr 1.f6da2f2f7f611fc93da5.png",
+    "static/media/Group 1.png": "/static/media/Group 1.8fe9c5b24c4c5963f58e.png",
+    "static/media/Nikita-1-2048x2048.jpg": "/static/media/Nikita-1-2048x2048.3a44c87df188a67ed920.jpg",
+    "static/media/drones-disaster-rt-feature_1200x675_hero_082718.jpg": "/static/media/drones-disaster-rt-feature_1200x675_hero_082718.17a7b85f13b3006cc02b.jpg",
+    "static/media/Neha-1.jpg": "/static/media/Neha-1.45afd43f14abc0299aa4.jpg",
+    "static/media/drone-cinematographer.jpg": "/static/media/drone-cinematographer.30260e9a17f09eef1991.jpg",
+    "static/media/Marcia-768x768.jpg": "/static/media/Marcia-768x768.7dba894025e7e3bcc7d8.jpg",
+    "static/media/commercial-drone-pilot-jobs-scaled.jpg": "/static/media/commercial-drone-pilot-jobs-scaled.929095785585d8bdcd94.jpg",
+    "static/media/build.jpg": "/static/media/build.2dab6840b5e30a4a0d02.jpg",
+    "static/media/Line 2.png": "/static/media/Line 2.79b8870a0b8c43fdbc7c.png",
+    "static/media/Line 1.png": "/static/media/Line 1.83ec634a8abc7f5efb74.png",
+    "index.html": "/index.html",
+    "main.b28480d7.css.map": "/static/css/main.b28480d7.css.map",
+    "main.43b0dcbd.js.map": "/static/js/main.43b0dcbd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b28480d7.css",
+    "static/js/main.43b0dcbd.js"
+  ]
+}
