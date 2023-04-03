@@ -1,0 +1,191 @@
+.training__header {
+    display: flex;
+    flex-direction: row;
+    margin-top: -140px;
+}
+
+.training__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+
+.training__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 63px;
+    line-height: 75px;
+    margin-top: -10px;
+    letter-spacing: -0.03em;
+}
+
+.training__header-content p {
+    font-family: var(--font-family);
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 22px;
+    color: #DBD3E0;
+
+    margin-top: 1.4rem;
+    margin-right: 1rem;
+}
+
+.training__header-content__input {
+    width: 40%;
+    margin: 2rem 0 1rem;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.training__header-content__input input {
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.training__header-content__input button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 28px;
+    background: #4269E2;
+    border: 1px solid #4269E2;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.training__header-content__people {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+
+    margin-top: 2rem;
+}
+
+.training__header-content__people img {
+    /* width: 181.79px;
+    height: 38px; */
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -190px;
+    height: auto;
+    width: 110%;
+}
+
+.training__header-content__people2 img {
+    /* width: 181.79px;
+    height: 38px; */
+    position: absolute;
+    z-index: -1;
+    margin-left: 240px;
+    margin-top: -190px;
+    height: auto;
+    width: 90%;
+ 
+}
+
+
+.training__header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.training__header-image img {
+    width: 120%;
+    height: 100%;
+    z-index: -2;
+
+}
+
+@media screen and (min-width: 1480px) {
+    .training__header-content__people img {
+        margin-top: 120px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .training__header {
+        flex-direction: column;
+    }
+
+    .training__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    
+    .training__header-content h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .training__header-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .training__header-content__people {
+        flex-direction: column;
+    }
+
+    .training__header-content__people p {
+        margin: 0;
+    }
+
+    .training__header-content__input input,
+    .training__header-content__input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .training__header-content h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    
+
+    .training__header-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .training__header-content__input input,
+    .training__header-content__input button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

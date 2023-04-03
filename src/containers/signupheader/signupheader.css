@@ -1,0 +1,230 @@
+.training__header-content__signin {
+    flex: 1;
+    display: inline-block;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+    margin-top: 8rem;
+}
+
+.training__header-content__signin h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 75px;
+    margin-top: -10px;
+    letter-spacing: -0.03em;
+    color: #FBE8D3;
+}
+
+.training__header-content__signin h2 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 63px;
+    line-height: 75px;
+    margin-top: -10px;
+    letter-spacing: -0.03em;
+    color: #FBE8D3;
+    display: inline-block;
+}
+
+.training__header-content__signin h3 {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 75px;
+    margin-top: -10px;
+    margin-left: 3px;
+    letter-spacing: -0.03em;
+    color: #FF7069;
+    display: inline-block;
+    
+}
+
+.training__header-content__signin p {
+    font-family: var(--font-family);
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 22px;
+    color: #DBD3E0;
+
+    margin-top: 1.4rem;
+    margin-right: 1rem;
+}
+
+.training__header-content__input__signin {
+    width: 40%;
+    margin: 2rem 0 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.training__header-content__input__signin input {
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.training__header-image__signin {
+    flex: 1;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-top: -80px;
+    margin-left: 20px;
+}
+
+.training__header-image__signin img {
+    width: 150%;
+    height: 100%;
+
+    
+
+}
+
+.training__header-image__signin .login__signup {
+    padding: 0.6rem 1.5rem;
+    position:absolute;
+    color: #fff;
+    background: #4269E2;
+    font-family: var(--font-family);
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 15px;
+    top: 72%;
+    left: 24%;
+}
+
+.training__header-image__signin p {
+    padding: 0.5rem 1rem;
+    position:absolute;
+    color: #fff;
+    background: none;
+    font-family: var(--font-family);
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    top: 70%;
+    left: 28%;
+}
+
+
+.training__header-image__signin input{
+flex: 2;
+position: absolute;
+width: 70%;
+min-height: 50px;
+left: 1%;
+margin-top: 10px;
+font-family: var(--font-family);
+font-weight: 200;
+font-size: 18px;
+color: white;
+line-height: 28px;
+background: none;
+border: 2px solid white;
+padding: 0 1rem;
+outline: none;
+
+border-radius: 20px;
+}
+
+.training__header-image__signin .name__signup{
+    top:43%;
+}
+
+.training__header-image__signin .email__signup{
+    top:52%;
+}
+
+.training__header-image__signin .pass__signup{
+    top:61%;
+}
+.training__header-image__signin .signupprompt__signup{
+    top: 80%;
+    left: 4%;
+}
+
+.training__header-image__signin .signup__signup{
+    top: 80%;
+    left: 45%;
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width: 1050px) {
+    .training__header__signin {
+        flex-direction: column;
+    }
+
+    .training__header-content__signin {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .training__header-content__signin h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .training__header-content__signin p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .training__header-content__people__signin {
+        flex-direction: column;
+    }
+
+    .training__header-content__people__signin p {
+        margin: 0;
+    }
+
+    .training__header-content__input__signin input,
+    .training__header-content__input__signin button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .training__header-content__signin h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .training__header-content__signin p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .training__header-content__input__signin input,
+    .training__header-content__input__signin button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

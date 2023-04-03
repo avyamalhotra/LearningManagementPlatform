@@ -1,0 +1,22 @@
+.mycourses__heading {
+    display: flex;
+    flex-direction: column;    
+}
+
+.text__mycourses{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 75px;
+    margin-top: -10px;
+    letter-spacing: -0.03em;
+    color: #FBE8D3;
+    margin-left: 5rem;
+}
+
+.mycourses__heading {
+    width: 100%;
+    text-align: left;
+
+    margin-bottom: 5rem;
+}

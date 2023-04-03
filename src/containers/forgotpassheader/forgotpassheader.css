@@ -1,0 +1,22 @@
+.training__header-image__signin .login__forgotpass {
+    padding: 0.6rem 1.5rem;
+    position:absolute;
+    color: #fff;
+    background: #4269E2;
+    font-family: var(--font-family);
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 15px;
+    top: 60%;
+    left: 18%;
+}
+
+.training__header-image__signin .signup__forgotpass{
+    top: 70%;
+    left: 26%;
+    text-decoration-line: underline;
+}
